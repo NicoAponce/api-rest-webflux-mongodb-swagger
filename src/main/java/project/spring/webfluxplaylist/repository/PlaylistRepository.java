@@ -1,0 +1,1 @@
+package project.spring.webfluxplaylist.repository;import org.springframework.data.mongodb.repository.ReactiveMongoRepository;import org.springframework.stereotype.Repository;import project.spring.webfluxplaylist.document.Playlist;@Repositorypublic interface PlaylistRepository extends ReactiveMongoRepository<Playlist, String> {}
